@@ -6,11 +6,11 @@ echo [CONFIG]      Setting VHDL standard to 2008.
 set GHDL_ARGS=--std=08
 
 rem A list of all your testbench entity names, separated by spaces.
-set TESTBENCHES=fullAdder_tb
+set TESTBENCHES=adder_4bit_tb_behavioral adder_4bit_tb_dataflow adder_4bit_tb_structural
 
 rem --- Step 1: Analyze all source files at once ---
 echo [STEP 1]      Analyzing all src and Testbench files...
-ghdl -a %GHDL_ARGS% ..\src\*.vhd ..\tb\*.vhd ..\..\gates\src\*.vhd
+ghdl -a %GHDL_ARGS% ..\src\*.vhd ..\tb\*.vhd ..\..\gates\src\*.vhd ..\..\FullAdder\src\*.vhd
 
 rem Check if analysis was successful. If not, stop the script.
 if %errorlevel% neq 0 (
