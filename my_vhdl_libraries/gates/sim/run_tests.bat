@@ -9,7 +9,7 @@ rem A list of all your testbench entity names, separated by spaces.
 set TESTBENCHES=and2_tb and3_tb or2_tb or3_tb nand2_tb nand3_tb nor2_tb nor3_tb xor2_tb xor3_tb xnor2_tb xnor3_tb mux2_tb mux4_tb mux8_tb
 
 rem --- Step 1: Analyze all source files at once ---
-echo [STEP 1] Analyzing all RTL and Testbench source files...
+echo [STEP 1]      Analyzing all src and Testbench files...
 ghdl -a %GHDL_ARGS% ..\src\*.vhd ..\tb\*.vhd
 
 rem Check if analysis was successful. If not, stop the script.
@@ -22,14 +22,11 @@ echo.
 
 rem --- Step 2: Loop through each testbench to elaborate and run ---
 echo [STEP 2] Running all specified testbenches...
-echo.
+
 for %%T in (%TESTBENCHES%) do (
-    echo ------------------------------------------
-    echo --- Elaborating and Running: %%T ---
-    echo ------------------------------------------
+echo               Running: %%T 
     ghdl -e %GHDL_ARGS% %%T
     ghdl -r %GHDL_ARGS% %%T --fst=%%T.fst
-    echo.
 )
 
 echo [SUCCESS] All testbenches have been run.

@@ -51,8 +51,6 @@ begin
 
     test : process
     begin
-        report "mux8_tb----------------";
-
         sel_sig <= "000"; -- select 0 -----------------------------------
         a0_sig <= '0';
         
@@ -177,8 +175,6 @@ begin
                     ", a7 == " & std_logic'image(a7_sig) & 
                     ", Output == " & std_logic'image(z_sig);
 
-        report "mux8_tb complete---------------";
-        
         wait;
 
     end process test;

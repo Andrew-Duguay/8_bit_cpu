@@ -1,64 +1,64 @@
 v 4
-file . "..\tb\adder_4bit_tb_dataflow.vhd" "7614653b948fefa2097af670049c574b8e630d5e" "20250527032016.131":
-  entity adder_4bit_tb_dataflow at 1( 0) + 0 on 1035;
-  architecture behavioral of adder_4bit_tb_dataflow at 8( 146) + 0 on 1036;
-file . "..\tb\adder_4bit_tb_behavioral.vhd" "8fd84a3ab4e1b9388d821df6f26955537c786ee6" "20250527032016.116":
-  entity adder_4bit_tb_behavioral at 1( 0) + 0 on 1033;
-  architecture behavioral of adder_4bit_tb_behavioral at 8( 150) + 0 on 1034;
-file . "..\..\FullAdder\src\fullAdder.vhd" "9d4a0fdd8303482c381dfb5dd057a57499c288c3" "20250527032016.153":
-  entity fulladder at 1( 0) + 0 on 1069;
-  architecture behavioral of fulladder at 15( 281) + 0 on 1070;
-  architecture structural of fulladder at 21( 458) + 0 on 1071;
-file . "..\..\gates\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250527032016.152":
-  entity xor3 at 1( 0) + 0 on 1067;
-  architecture rtl of xor3 at 14( 246) + 0 on 1068;
-file . "..\..\gates\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250527032016.151":
-  entity xor2 at 1( 0) + 0 on 1065;
-  architecture rtl of xor2 at 13( 215) + 0 on 1066;
-file . "..\..\gates\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250527032016.150":
-  entity xnor3 at 1( 0) + 0 on 1063;
-  architecture rtl of xnor3 at 14( 248) + 0 on 1064;
-file . "..\..\gates\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250527032016.149":
-  entity xnor2 at 1( 0) + 0 on 1061;
-  architecture rtl of xnor2 at 13( 217) + 0 on 1062;
-file . "..\..\gates\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250527032016.149":
-  entity or3 at 1( 0) + 0 on 1059;
-  architecture rtl of or3 at 13( 224) + 0 on 1060;
-file . "..\..\gates\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250527032016.148":
-  entity or2 at 1( 0) + 0 on 1057;
-  architecture rtl of or2 at 12( 193) + 0 on 1058;
-file . "..\..\gates\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250527032016.148":
-  entity nor3 at 1( 0) + 0 on 1055;
-  architecture rtl of nor3 at 13( 226) + 0 on 1056;
-file . "..\..\gates\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250527032016.147":
-  entity nor2 at 1( 0) + 0 on 1053;
-  architecture rtl of nor2 at 12( 195) + 0 on 1054;
-file . "..\..\gates\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250527032016.147":
-  entity nand3 at 1( 0) + 0 on 1051;
-  architecture rtl of nand3 at 13( 228) + 0 on 1052;
-file . "..\..\gates\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250527032016.146":
-  entity nand2 at 1( 0) + 0 on 1049;
-  architecture rtl of nand2 at 12( 197) + 0 on 1050;
-file . "..\..\gates\src\mux8.vhd" "6997673c19f25340ce492ef3fba25241aac8f01a" "20250527032016.146":
-  entity mux8 at 1( 0) + 0 on 1047;
-  architecture rtl of mux8 at 20( 427) + 0 on 1048;
-file . "..\..\gates\src\mux4.vhd" "f4bdd59a11dc7a1925187bb78d40343281d637d1" "20250527032016.145":
-  entity mux4 at 1( 0) + 0 on 1045;
-  architecture rtl of mux4 at 16( 315) + 0 on 1046;
-file . "..\..\gates\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250527032016.145":
-  entity mux2 at 1( 0) + 0 on 1043;
-  architecture rtl of mux2 at 14( 240) + 0 on 1044;
-file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250527032016.144":
-  entity and3 at 1( 0) + 0 on 1041;
-  architecture rtl of and3 at 13( 226) + 0 on 1042;
-file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250527032016.143":
-  entity and2 at 1( 0) + 0 on 1039;
-  architecture rtl of and2 at 12( 195) + 0 on 1040;
-file . "..\src\adder_4bit.vhd" "9c57ce4935ed096ded9108c49687c96b9644d563" "20250527032016.099":
-  entity adder_4bit at 1( 0) + 0 on 1029;
-  architecture behavioral of adder_4bit at 15( 340) + 0 on 1030;
-  architecture dataflow of adder_4bit at 37( 950) + 0 on 1031;
-  architecture structural of adder_4bit at 45( 1208) + 0 on 1032;
-file . "..\tb\adder_4bit_tb_structural.vhd" "d350cb2cee871e5061210cb234e6869d47db78fe" "20250527032016.143":
-  entity adder_4bit_tb_structural at 1( 0) + 0 on 1037;
-  architecture behavioral of adder_4bit_tb_structural at 8( 150) + 0 on 1038;
+file . "..\..\FullAdder\src\fullAdder.vhd" "9d4a0fdd8303482c381dfb5dd057a57499c288c3" "20250528183224.701":
+  entity fulladder at 1( 0) + 0 on 137;
+  architecture behavioral of fulladder at 15( 281) + 0 on 138;
+  architecture structural of fulladder at 21( 458) + 0 on 139;
+file . "..\..\gates\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250528183224.700":
+  entity xor3 at 1( 0) + 0 on 135;
+  architecture rtl of xor3 at 14( 246) + 0 on 136;
+file . "..\..\gates\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250528183224.699":
+  entity xor2 at 1( 0) + 0 on 133;
+  architecture rtl of xor2 at 13( 215) + 0 on 134;
+file . "..\..\gates\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250528183224.699":
+  entity xnor3 at 1( 0) + 0 on 131;
+  architecture rtl of xnor3 at 14( 248) + 0 on 132;
+file . "..\..\gates\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250528183224.698":
+  entity xnor2 at 1( 0) + 0 on 129;
+  architecture rtl of xnor2 at 13( 217) + 0 on 130;
+file . "..\..\gates\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250528183224.697":
+  entity or3 at 1( 0) + 0 on 127;
+  architecture rtl of or3 at 13( 224) + 0 on 128;
+file . "..\..\gates\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250528183224.697":
+  entity or2 at 1( 0) + 0 on 125;
+  architecture rtl of or2 at 12( 193) + 0 on 126;
+file . "..\..\gates\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250528183224.696":
+  entity nor3 at 1( 0) + 0 on 123;
+  architecture rtl of nor3 at 13( 226) + 0 on 124;
+file . "..\..\gates\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250528183224.696":
+  entity nor2 at 1( 0) + 0 on 121;
+  architecture rtl of nor2 at 12( 195) + 0 on 122;
+file . "..\..\gates\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250528183224.695":
+  entity nand3 at 1( 0) + 0 on 119;
+  architecture rtl of nand3 at 13( 228) + 0 on 120;
+file . "..\..\gates\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250528183224.695":
+  entity nand2 at 1( 0) + 0 on 117;
+  architecture rtl of nand2 at 12( 197) + 0 on 118;
+file . "..\..\gates\src\mux8.vhd" "6997673c19f25340ce492ef3fba25241aac8f01a" "20250528183224.694":
+  entity mux8 at 1( 0) + 0 on 115;
+  architecture rtl of mux8 at 20( 427) + 0 on 116;
+file . "..\..\gates\src\mux4.vhd" "f4bdd59a11dc7a1925187bb78d40343281d637d1" "20250528183224.693":
+  entity mux4 at 1( 0) + 0 on 113;
+  architecture rtl of mux4 at 16( 315) + 0 on 114;
+file . "..\..\gates\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250528183224.693":
+  entity mux2 at 1( 0) + 0 on 111;
+  architecture rtl of mux2 at 14( 240) + 0 on 112;
+file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250528183224.692":
+  entity and3 at 1( 0) + 0 on 109;
+  architecture rtl of and3 at 13( 226) + 0 on 110;
+file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250528183224.692":
+  entity and2 at 1( 0) + 0 on 107;
+  architecture rtl of and2 at 12( 195) + 0 on 108;
+file . "..\tb\adder_4bit_tb_structural.vhd" "d350cb2cee871e5061210cb234e6869d47db78fe" "20250528183224.691":
+  entity adder_4bit_tb_structural at 1( 0) + 0 on 105;
+  architecture behavioral of adder_4bit_tb_structural at 8( 150) + 0 on 106;
+file . "..\tb\adder_4bit_tb_dataflow.vhd" "7614653b948fefa2097af670049c574b8e630d5e" "20250528183224.690":
+  entity adder_4bit_tb_dataflow at 1( 0) + 0 on 103;
+  architecture behavioral of adder_4bit_tb_dataflow at 8( 146) + 0 on 104;
+file . "..\tb\adder_4bit_tb_behavioral.vhd" "8fd84a3ab4e1b9388d821df6f26955537c786ee6" "20250528183224.689":
+  entity adder_4bit_tb_behavioral at 1( 0) + 0 on 101;
+  architecture behavioral of adder_4bit_tb_behavioral at 8( 150) + 0 on 102;
+file . "..\src\adder_4bit.vhd" "9c57ce4935ed096ded9108c49687c96b9644d563" "20250528183224.688":
+  entity adder_4bit at 1( 0) + 0 on 97;
+  architecture behavioral of adder_4bit at 15( 340) + 0 on 98;
+  architecture dataflow of adder_4bit at 37( 950) + 0 on 99;
+  architecture structural of adder_4bit at 45( 1208) + 0 on 100;

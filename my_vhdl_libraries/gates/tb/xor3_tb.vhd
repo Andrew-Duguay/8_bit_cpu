@@ -33,8 +33,6 @@ begin
 
     test : process
     begin
-        report "xor3_tb----------------";
-
         a_sig <= '0';
         b_sig <= '0';
         c_sig <= '0';
@@ -90,8 +88,6 @@ begin
         wait for DELTA_DELAY;
         assert (z_sig = '1')
             report "Failure: input == 111,  Output == " & std_logic'image(z_sig);
-            
-        report "xor3_tb complete---------------";
         
         wait;
 

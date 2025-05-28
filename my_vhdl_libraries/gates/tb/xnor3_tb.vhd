@@ -33,8 +33,6 @@ begin
 
     test : process
     begin
-        report "xnor3_tb----------------";
-
         a_sig <= '0';
         b_sig <= '0';
         c_sig <= '0';
@@ -91,8 +89,6 @@ begin
         assert (z_sig = '0')
             report "Failure: input == 111,  Output == " & std_logic'image(z_sig);
             
-        report "xnor3_tb complete---------------";
-        
         wait;
 
     end process test;

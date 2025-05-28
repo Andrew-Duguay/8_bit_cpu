@@ -30,7 +30,6 @@ begin
 
     test : process
     begin
-        report "xor2----------------";
 
         a_sig <= '0';
         b_sig <= '0';
@@ -55,9 +54,7 @@ begin
         wait for DELTA_DELAY;
         assert (z_sig = '0')
             report "Failure: input == 11,  Output == " & std_logic'image(z_sig);
-
-        report "xor2 complete---------------";
-        
+            
         wait;
 
     end process test;

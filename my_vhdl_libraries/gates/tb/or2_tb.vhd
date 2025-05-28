@@ -30,8 +30,6 @@ begin
 
     test : process
     begin
-        report "or2_tb----------------";
-
         a_sig <= '0';
         b_sig <= '0';
         wait for DELTA_DELAY;
@@ -56,8 +54,6 @@ begin
         assert (z_sig = '1')
             report "Failure: input == 11,  Output == " & std_logic'image(z_sig);
 
-        report "or2_tb complete---------------";
-        
         wait;
 
     end process test;

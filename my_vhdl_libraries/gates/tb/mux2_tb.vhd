@@ -33,8 +33,6 @@ begin
 
     test : process
     begin
-        report "mux2_tb----------------";
-
         sel_sig <= '0'; -- select option 0 -------------------------
         a0_sig <= '0';
         
@@ -66,8 +64,6 @@ begin
                     ", a1 == " & std_logic'image(a1_sig) & 
                     ", Output == " & std_logic'image(z_sig);
 
-        report "mux2_tb complete---------------";
-        
         wait;
 
     end process test;

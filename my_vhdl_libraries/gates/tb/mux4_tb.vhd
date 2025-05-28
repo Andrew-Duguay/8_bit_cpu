@@ -39,8 +39,6 @@ begin
 
     test : process
     begin
-        report "mux4_tb----------------";
-
         sel_sig <= "00"; -- select 0 -----------------------------------
         a0_sig <= '0';
         
@@ -103,8 +101,6 @@ begin
                     ", a3 == " & std_logic'image(a3_sig) & 
                     ", Output == " & std_logic'image(z_sig);
 
-        report "mux4_tb complete---------------";
-        
         wait;
 
     end process test;

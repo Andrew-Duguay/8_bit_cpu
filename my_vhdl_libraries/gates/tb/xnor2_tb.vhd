@@ -30,8 +30,6 @@ begin
 
     test : process
     begin
-        report "xnor2----------------";
-
         a_sig <= '0';
         b_sig <= '0';
         wait for DELTA_DELAY;
@@ -56,8 +54,6 @@ begin
         assert (z_sig = '1')
             report "Failure: input == 11,  Output == " & std_logic'image(z_sig);
 
-        report "xnor2 complete---------------";
-        
         wait;
 
     end process test;

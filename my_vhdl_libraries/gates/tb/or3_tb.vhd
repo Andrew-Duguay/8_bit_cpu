@@ -33,8 +33,6 @@ begin
 
     test : process
     begin
-        report "or3_tb----------------";
-
         a_sig <= '0';
         b_sig <= '0';
         c_sig <= '0';
@@ -91,8 +89,6 @@ begin
         assert (z_sig = '1')
             report "Failure: input == 111,  Output == " & std_logic'image(z_sig);
             
-        report "or3_tb complete---------------";
-        
         wait;
 
     end process test;

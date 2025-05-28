@@ -33,8 +33,6 @@ begin
 
     test : process
     begin
-        report "nand3_tb----------------";
-
         a_sig <= '0';
         b_sig <= '0';
         c_sig <= '0';
@@ -91,9 +89,7 @@ begin
         assert (z_sig = '0')
             report "Failure: input == 111,  Output == " & std_logic'image(z_sig);
             
-        report "nand3_tb complete---------------";
-        
-        wait;
+       wait;
 
     end process test;
 
