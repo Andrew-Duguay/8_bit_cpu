@@ -1,0 +1,43 @@
+v 4
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250605162415.210":
+  entity xor3 at 1( 0) + 0 on 37;
+  architecture rtl of xor3 at 14( 246) + 0 on 38;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250605162415.210":
+  entity xor2 at 1( 0) + 0 on 35;
+  architecture rtl of xor2 at 13( 215) + 0 on 36;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250605162415.209":
+  entity xnor3 at 1( 0) + 0 on 33;
+  architecture rtl of xnor3 at 14( 248) + 0 on 34;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250605162415.208":
+  entity xnor2 at 1( 0) + 0 on 31;
+  architecture rtl of xnor2 at 13( 217) + 0 on 32;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250605162415.206":
+  entity or3 at 1( 0) + 0 on 29;
+  architecture rtl of or3 at 13( 224) + 0 on 30;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250605162415.205":
+  entity or2 at 1( 0) + 0 on 27;
+  architecture rtl of or2 at 12( 193) + 0 on 28;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\not1.vhd" "b383d706d4fc6f3129341c18c721ee6ca1de72c6" "20250605162415.205":
+  entity not1 at 1( 0) + 0 on 25;
+  architecture rtl of not1 at 11( 164) + 0 on 26;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250605162415.204":
+  entity nor3 at 1( 0) + 0 on 23;
+  architecture rtl of nor3 at 13( 226) + 0 on 24;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250605162415.204":
+  entity nor2 at 1( 0) + 0 on 21;
+  architecture rtl of nor2 at 12( 195) + 0 on 22;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250605162415.204":
+  entity nand3 at 1( 0) + 0 on 19;
+  architecture rtl of nand3 at 13( 228) + 0 on 20;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250605162415.203":
+  entity nand2 at 1( 0) + 0 on 17;
+  architecture rtl of nand2 at 12( 197) + 0 on 18;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\buffer1.vhd" "1ed264870df4d829f1a1280ab52c22b276fea098" "20250605162415.203":
+  entity buffer1 at 1( 0) + 0 on 15;
+  architecture rtl of buffer1 at 11( 170) + 0 on 16;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250605162415.202":
+  entity and3 at 1( 0) + 0 on 13;
+  architecture rtl of and3 at 13( 226) + 0 on 14;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\" ".\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250605162415.202":
+  entity and2 at 1( 0) + 0 on 11;
+  architecture rtl of and2 at 12( 195) + 0 on 12;

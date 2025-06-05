@@ -1,0 +1,7 @@
+v 4
+file . "..\tb\shifter_8bit_tb_dataflow.vhd" "f9294a5e64cad628247167fa90d48f6ed78cfdde" "20250605163250.255":
+  entity shifter_8bit_tb_dataflow at 1( 0) + 0 on 37;
+  architecture behavioral of shifter_8bit_tb_dataflow at 8( 150) + 0 on 38;
+file . "..\src\shifter_8bit.vhd" "208b09f2ab7b44d258dc21d1d598decfbaf141f7" "20250605163250.253":
+  entity shifter_8bit at 1( 0) + 0 on 35;
+  architecture dataflow of shifter_8bit at 17( 421) + 0 on 36;

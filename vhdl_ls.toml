@@ -1,0 +1,9 @@
+standard = "2008"
+
+[libraries]
+gate_lib.files = [
+  'building_blocks/gates/src/**/*.vhd
+]
+defaultlib.files = [
+  '**/*.vhd'
+]
