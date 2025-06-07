@@ -1,0 +1,11 @@
+v 4
+file . "..\tb\and_8bit_tb_structural.vhd" "f21e96d3f10669ba5a2b03297a3c34eb8c05036f" "20250607005303.430":
+  entity and_8bit_tb_structural at 1( 0) + 0 on 16;
+  architecture behavioral of and_8bit_tb_structural at 10( 215) + 0 on 17;
+file . "..\tb\and_8bit_tb_dataflow.vhd" "972f4f4ca3d142a9f992856c63339de73ba6f5d5" "20250607005303.414":
+  entity and_8bit_tb_dataflow at 1( 0) + 0 on 14;
+  architecture behavioral of and_8bit_tb_dataflow at 10( 211) + 0 on 15;
+file . "..\src\and_8bit.vhd" "9a0d2caf743c6a274591dc40a73d53d89327d9a8" "20250607005303.411":
+  entity and_8bit at 1( 0) + 0 on 11;
+  architecture dataflow of and_8bit at 14( 306) + 0 on 12;
+  architecture structural of and_8bit at 19( 408) + 0 on 13;
