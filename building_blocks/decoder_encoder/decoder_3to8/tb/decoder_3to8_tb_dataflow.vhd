@@ -21,7 +21,6 @@ begin
         );
 
     TB_PROCESS : process
-    variable z_size : integer := z_sig'length;
     constant z_exp : STD_LOGIC_VECTOR(7 downto 0) := "00000001";
     begin
         ADD1 : for i in 0 to 7 loop
