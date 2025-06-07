@@ -1,62 +1,62 @@
 v 4
-file . "..\src\not_4bit.vhd" "86b1daf3c884a4eb54f415efb286236f8c6ac486" "20250605162830.510":
-  entity not_4bit at 1( 0) + 0 on 52;
-  architecture dataflow of not_4bit at 13( 246) + 0 on 53;
-  architecture structural of not_4bit at 18( 343) + 0 on 54;
-file . "..\tb\not_4bit_tb_dataflow.vhd" "5c14e1111d51a48ee360de91792d63348bcea38f" "20250605162830.511":
-  entity not_4bit_tb_dataflow at 1( 0) + 0 on 55;
-  architecture behavioral of not_4bit_tb_dataflow at 8( 142) + 0 on 56;
-file . "..\tb\not_4bit_tb_structural.vhd" "1ec8f4e21e866d80e1847fed92dba34f2d946371" "20250605162830.521":
-  entity not_4bit_tb_structural at 1( 0) + 0 on 57;
-  architecture behavioral of not_4bit_tb_structural at 8( 146) + 0 on 58;
-file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250528221104.478":
-  entity and2 at 1( 0) + 0 on 18;
-  architecture rtl of and2 at 12( 195) + 0 on 19;
-file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250528221104.479":
-  entity and3 at 1( 0) + 0 on 20;
-  architecture rtl of and3 at 13( 226) + 0 on 21;
-file . "..\..\gates\src\buffer1.vhd" "1ed264870df4d829f1a1280ab52c22b276fea098" "20250528221104.479":
-  entity buffer1 at 1( 0) + 0 on 22;
-  architecture rtl of buffer1 at 11( 170) + 0 on 23;
-file . "..\..\gates\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250528221104.480":
-  entity mux2 at 1( 0) + 0 on 24;
-  architecture rtl of mux2 at 14( 240) + 0 on 25;
-file . "..\..\gates\src\mux4.vhd" "f4bdd59a11dc7a1925187bb78d40343281d637d1" "20250528221104.481":
-  entity mux4 at 1( 0) + 0 on 26;
-  architecture rtl of mux4 at 16( 315) + 0 on 27;
-file . "..\..\gates\src\mux8.vhd" "6997673c19f25340ce492ef3fba25241aac8f01a" "20250528221104.482":
-  entity mux8 at 1( 0) + 0 on 28;
-  architecture rtl of mux8 at 20( 427) + 0 on 29;
-file . "..\..\gates\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250528221104.482":
-  entity nand2 at 1( 0) + 0 on 30;
-  architecture rtl of nand2 at 12( 197) + 0 on 31;
-file . "..\..\gates\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250528221104.483":
-  entity nand3 at 1( 0) + 0 on 32;
-  architecture rtl of nand3 at 13( 228) + 0 on 33;
-file . "..\..\gates\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250528221104.484":
-  entity nor2 at 1( 0) + 0 on 34;
-  architecture rtl of nor2 at 12( 195) + 0 on 35;
-file . "..\..\gates\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250528221104.485":
-  entity nor3 at 1( 0) + 0 on 36;
-  architecture rtl of nor3 at 13( 226) + 0 on 37;
-file . "..\..\gates\src\not1.vhd" "b383d706d4fc6f3129341c18c721ee6ca1de72c6" "20250528221104.485":
-  entity not1 at 1( 0) + 0 on 38;
-  architecture rtl of not1 at 11( 164) + 0 on 39;
-file . "..\..\gates\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250528221104.486":
-  entity or2 at 1( 0) + 0 on 40;
-  architecture rtl of or2 at 12( 193) + 0 on 41;
-file . "..\..\gates\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250528221104.486":
-  entity or3 at 1( 0) + 0 on 42;
-  architecture rtl of or3 at 13( 224) + 0 on 43;
-file . "..\..\gates\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250528221104.487":
-  entity xnor2 at 1( 0) + 0 on 44;
-  architecture rtl of xnor2 at 13( 217) + 0 on 45;
-file . "..\..\gates\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250528221104.487":
-  entity xnor3 at 1( 0) + 0 on 46;
-  architecture rtl of xnor3 at 14( 248) + 0 on 47;
-file . "..\..\gates\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250528221104.488":
-  entity xor2 at 1( 0) + 0 on 48;
-  architecture rtl of xor2 at 13( 215) + 0 on 49;
 file . "..\..\gates\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250528221104.489":
   entity xor3 at 1( 0) + 0 on 50;
   architecture rtl of xor3 at 14( 246) + 0 on 51;
+file . "..\..\gates\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250528221104.488":
+  entity xor2 at 1( 0) + 0 on 48;
+  architecture rtl of xor2 at 13( 215) + 0 on 49;
+file . "..\..\gates\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250528221104.487":
+  entity xnor3 at 1( 0) + 0 on 46;
+  architecture rtl of xnor3 at 14( 248) + 0 on 47;
+file . "..\..\gates\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250528221104.487":
+  entity xnor2 at 1( 0) + 0 on 44;
+  architecture rtl of xnor2 at 13( 217) + 0 on 45;
+file . "..\..\gates\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250528221104.486":
+  entity or3 at 1( 0) + 0 on 42;
+  architecture rtl of or3 at 13( 224) + 0 on 43;
+file . "..\..\gates\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250528221104.486":
+  entity or2 at 1( 0) + 0 on 40;
+  architecture rtl of or2 at 12( 193) + 0 on 41;
+file . "..\..\gates\src\not1.vhd" "b383d706d4fc6f3129341c18c721ee6ca1de72c6" "20250528221104.485":
+  entity not1 at 1( 0) + 0 on 38;
+  architecture rtl of not1 at 11( 164) + 0 on 39;
+file . "..\..\gates\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250528221104.485":
+  entity nor3 at 1( 0) + 0 on 36;
+  architecture rtl of nor3 at 13( 226) + 0 on 37;
+file . "..\..\gates\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250528221104.484":
+  entity nor2 at 1( 0) + 0 on 34;
+  architecture rtl of nor2 at 12( 195) + 0 on 35;
+file . "..\..\gates\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250528221104.483":
+  entity nand3 at 1( 0) + 0 on 32;
+  architecture rtl of nand3 at 13( 228) + 0 on 33;
+file . "..\..\gates\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250528221104.482":
+  entity nand2 at 1( 0) + 0 on 30;
+  architecture rtl of nand2 at 12( 197) + 0 on 31;
+file . "..\..\gates\src\mux8.vhd" "6997673c19f25340ce492ef3fba25241aac8f01a" "20250528221104.482":
+  entity mux8 at 1( 0) + 0 on 28;
+  architecture rtl of mux8 at 20( 427) + 0 on 29;
+file . "..\..\gates\src\mux4.vhd" "f4bdd59a11dc7a1925187bb78d40343281d637d1" "20250528221104.481":
+  entity mux4 at 1( 0) + 0 on 26;
+  architecture rtl of mux4 at 16( 315) + 0 on 27;
+file . "..\..\gates\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250528221104.480":
+  entity mux2 at 1( 0) + 0 on 24;
+  architecture rtl of mux2 at 14( 240) + 0 on 25;
+file . "..\..\gates\src\buffer1.vhd" "1ed264870df4d829f1a1280ab52c22b276fea098" "20250528221104.479":
+  entity buffer1 at 1( 0) + 0 on 22;
+  architecture rtl of buffer1 at 11( 170) + 0 on 23;
+file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250528221104.479":
+  entity and3 at 1( 0) + 0 on 20;
+  architecture rtl of and3 at 13( 226) + 0 on 21;
+file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250528221104.478":
+  entity and2 at 1( 0) + 0 on 18;
+  architecture rtl of and2 at 12( 195) + 0 on 19;
+file . "..\tb\not_4bit_tb_structural.vhd" "1ec8f4e21e866d80e1847fed92dba34f2d946371" "20250606195800.379":
+  entity not_4bit_tb_structural at 1( 0) + 0 on 78;
+  architecture behavioral of not_4bit_tb_structural at 8( 146) + 0 on 79;
+file . "..\tb\not_4bit_tb_dataflow.vhd" "5c14e1111d51a48ee360de91792d63348bcea38f" "20250606195800.378":
+  entity not_4bit_tb_dataflow at 1( 0) + 0 on 76;
+  architecture behavioral of not_4bit_tb_dataflow at 8( 142) + 0 on 77;
+file . "..\src\not_4bit.vhd" "f93efcbbded710b8b43c42c7d47721999ea1bc3a" "20250606195800.378":
+  entity not_4bit at 1( 0) + 0 on 73;
+  architecture dataflow of not_4bit at 13( 257) + 0 on 74;
+  architecture structural of not_4bit at 18( 354) + 0 on 75;

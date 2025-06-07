@@ -1,0 +1,167 @@
+v 4
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\arithmetic\adder_4bit\tb\adder_4bit_tb_structural.vhd" "2f5da81e988739840697d6c0756f86ecad7aaa1f" "20250606222705.583":
+  entity adder_4bit_tb_structural at 1( 0) + 0 on 122;
+  architecture behavioral of adder_4bit_tb_structural at 8( 150) + 0 on 123;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\arithmetic\adder_4bit\tb\adder_4bit_tb_dataflow.vhd" "e23401dcd1b1e8ce1e188ccca639f1a3f224d889" "20250606222705.582":
+  entity adder_4bit_tb_dataflow at 1( 0) + 0 on 120;
+  architecture behavioral of adder_4bit_tb_dataflow at 8( 146) + 0 on 121;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\arithmetic\adder_4bit\tb\adder_4bit_tb_behavioral.vhd" "ee88ccf7bb4d3aa6795b93dd65ab5a4eafb37c4a" "20250606222705.581":
+  entity adder_4bit_tb_behavioral at 1( 0) + 0 on 118;
+  architecture behavioral of adder_4bit_tb_behavioral at 8( 150) + 0 on 119;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\arithmetic\adder_4bit\src\adder_4bit.vhd" "a54417f49644f5176fbe842a3f5ea88381592800" "20250606222705.580":
+  entity adder_4bit at 1( 0) + 0 on 114;
+  architecture behavioral of adder_4bit at 16( 370) + 0 on 115;
+  architecture dataflow of adder_4bit at 38( 980) + 0 on 116;
+  architecture structural of adder_4bit at 46( 1238) + 0 on 117;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\muxes\mux8\src\mux8.vhd" "6997673c19f25340ce492ef3fba25241aac8f01a" "20250606222705.468":
+  entity mux8 at 1( 0) + 0 on 80;
+  architecture rtl of mux8 at 20( 427) + 0 on 81;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\muxes\mux4\tb\mux4_tb.vhd" "31ef4c8ff983fff5bd940ad1edd2ad1bf16194d3" "20250606222705.467":
+  entity mux4_tb at 1( 0) + 0 on 78;
+  architecture behavioral of mux4_tb at 8( 116) + 0 on 79;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\muxes\mux4\src\mux4.vhd" "f4bdd59a11dc7a1925187bb78d40343281d637d1" "20250606222705.466":
+  entity mux4 at 1( 0) + 0 on 76;
+  architecture rtl of mux4 at 16( 315) + 0 on 77;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\muxes\mux2\tb\mux2_tb.vhd" "375c8aa42c253bae3154453fce5ad26c517f5d3e" "20250606222705.465":
+  entity mux2_tb at 1( 0) + 0 on 74;
+  architecture behavioral of mux2_tb at 8( 116) + 0 on 75;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\muxes\mux2\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250606222705.464":
+  entity mux2 at 1( 0) + 0 on 72;
+  architecture rtl of mux2 at 14( 240) + 0 on 73;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\xor3_tb.vhd" "2f15efebc46118e898eadc8871b3359cf88a0aab" "20250606222705.377":
+  entity xor3_tb at 1( 0) + 0 on 67;
+  architecture behavioral of xor3_tb at 8( 116) + 0 on 68;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\xor2_tb.vhd" "7a41cf62a713c0bd92ae66d57de9cdca9ebd6d5a" "20250606222705.376":
+  entity xor2_tb at 1( 0) + 0 on 65;
+  architecture behavioral of xor2_tb at 8( 116) + 0 on 66;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\xnor3_tb.vhd" "bcaceb241956e03bbedbbd399305dc917cef1158" "20250606222705.375":
+  entity xnor3_tb at 1( 0) + 0 on 63;
+  architecture behavioral of xnor3_tb at 8( 118) + 0 on 64;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\xnor2_tb.vhd" "322a59365de5d023671095142eaad9d65eb18d14" "20250606222705.374":
+  entity xnor2_tb at 1( 0) + 0 on 61;
+  architecture behavioral of xnor2_tb at 8( 118) + 0 on 62;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\or3_tb.vhd" "82a54929d4001b1160f10a48f1866dd45dd952c7" "20250606222705.374":
+  entity or3_tb at 1( 0) + 0 on 59;
+  architecture behavioral of or3_tb at 8( 114) + 0 on 60;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\or2_tb.vhd" "992f1615697fe8cef75293b22462ed37ecffadad" "20250606222705.373":
+  entity or2_tb at 1( 0) + 0 on 57;
+  architecture behavioral of or2_tb at 8( 114) + 0 on 58;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\not1_tb.vhd" "bc801bca6e5d6fd797286ff36441e41626487990" "20250606222705.372":
+  entity not1_tb at 1( 0) + 0 on 55;
+  architecture behavioral of not1_tb at 8( 116) + 0 on 56;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\nor3_tb.vhd" "d25d4ffa48959049e17405e2319b7b6e2e9cb2d3" "20250606222705.371":
+  entity nor3_tb at 1( 0) + 0 on 53;
+  architecture behavioral of nor3_tb at 8( 116) + 0 on 54;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\nor2_tb.vhd" "6460fba39b33d3dea78f96edef30b0c8493c43de" "20250606222705.370":
+  entity nor2_tb at 1( 0) + 0 on 51;
+  architecture behavioral of nor2_tb at 8( 116) + 0 on 52;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\nand3_tb.vhd" "fcbc4bface194854152b27a43b074a1360b30e83" "20250606222705.369":
+  entity nand3_tb at 1( 0) + 0 on 49;
+  architecture behavioral of nand3_tb at 8( 118) + 0 on 50;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\nand2_tb.vhd" "a53ad3d87fb8e32fb5f4a03fb4b4b3bc806a1662" "20250606222705.368":
+  entity nand2_tb at 1( 0) + 0 on 47;
+  architecture behavioral of nand2_tb at 8( 118) + 0 on 48;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\buffer1_tb.vhd" "80edc45acfae33a30903cd536d84630fcfd68f7d" "20250606222705.367":
+  entity buffer1_tb at 1( 0) + 0 on 45;
+  architecture behavioral of buffer1_tb at 8( 122) + 0 on 46;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\and3_tb.vhd" "387b11838fec6e94d5afc84089098f6f998fdf1c" "20250606222705.367":
+  entity and3_tb at 1( 0) + 0 on 43;
+  architecture behavioral of and3_tb at 8( 116) + 0 on 44;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\tb\and2_tb.vhd" "5cfb89432961d2258df9c229214e7ef05204ff27" "20250606222705.366":
+  entity and2_tb at 1( 0) + 0 on 41;
+  architecture behavioral of and2_tb at 8( 116) + 0 on 42;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250606222705.365":
+  entity xor3 at 1( 0) + 0 on 39;
+  architecture rtl of xor3 at 14( 246) + 0 on 40;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250606222705.364":
+  entity xor2 at 1( 0) + 0 on 37;
+  architecture rtl of xor2 at 13( 215) + 0 on 38;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250606222705.363":
+  entity xnor3 at 1( 0) + 0 on 35;
+  architecture rtl of xnor3 at 14( 248) + 0 on 36;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250606222705.363":
+  entity xnor2 at 1( 0) + 0 on 33;
+  architecture rtl of xnor2 at 13( 217) + 0 on 34;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250606222705.360":
+  entity or3 at 1( 0) + 0 on 31;
+  architecture rtl of or3 at 13( 224) + 0 on 32;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250606222705.360":
+  entity or2 at 1( 0) + 0 on 29;
+  architecture rtl of or2 at 12( 193) + 0 on 30;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\not1.vhd" "b383d706d4fc6f3129341c18c721ee6ca1de72c6" "20250606222705.359":
+  entity not1 at 1( 0) + 0 on 27;
+  architecture rtl of not1 at 11( 164) + 0 on 28;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250606222705.359":
+  entity nor3 at 1( 0) + 0 on 25;
+  architecture rtl of nor3 at 13( 226) + 0 on 26;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250606222705.358":
+  entity nor2 at 1( 0) + 0 on 23;
+  architecture rtl of nor2 at 12( 195) + 0 on 24;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250606222705.358":
+  entity nand3 at 1( 0) + 0 on 21;
+  architecture rtl of nand3 at 13( 228) + 0 on 22;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250606222705.357":
+  entity nand2 at 1( 0) + 0 on 19;
+  architecture rtl of nand2 at 12( 197) + 0 on 20;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\buffer1.vhd" "1ed264870df4d829f1a1280ab52c22b276fea098" "20250606222705.357":
+  entity buffer1 at 1( 0) + 0 on 17;
+  architecture rtl of buffer1 at 11( 170) + 0 on 18;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250606222705.357":
+  entity and3 at 1( 0) + 0 on 15;
+  architecture rtl of and3 at 13( 226) + 0 on 16;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250606222705.356":
+  entity and2 at 1( 0) + 0 on 13;
+  architecture rtl of and2 at 12( 195) + 0 on 14;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\util\util_pkg.vhd" "1306ac08b0bea9de027885dd4d7f033397246fc7" "20250606222705.311":
+  package util_pkg at 1( 0) + 0 on 11 body;
+  package body util_pkg at 9( 193) + 0 on 12;
+file "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\" ".\fulladder\src\fulladder.vhd" "c1d0e6f81312fd951bd069763a986936c0e61664" "20250606222705.421":
+  entity fulladder at 1( 0) + 0 on 69;
+  architecture behavioral of fulladder at 16( 311) + 0 on 70;
+  architecture structural of fulladder at 22( 488) + 0 on 71;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\and_4bit\src\and_4bit.vhd" "8edd21231cabc42993c8dd55a284fe1d2edb35d3" "20250606222705.519":
+  entity and_4bit at 1( 0) + 0 on 82;
+  architecture dataflow of and_4bit at 14( 306) + 0 on 83;
+  architecture structural of and_4bit at 19( 408) + 0 on 84;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\and_4bit\tb\and_4bit_tb_dataflow.vhd" "e3ec0d0d73137e79888831a0576e3e7c5fe3c2d0" "20250606222705.520":
+  entity and_4bit_tb_dataflow at 1( 0) + 0 on 85;
+  architecture behavioral of and_4bit_tb_dataflow at 8( 142) + 0 on 86;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\and_4bit\tb\and_4bit_tb_structural.vhd" "ce4c409f3f4ba0d2a4ee89a1df7d02a4e3a6fadd" "20250606222705.521":
+  entity and_4bit_tb_structural at 1( 0) + 0 on 87;
+  architecture behavioral of and_4bit_tb_structural at 8( 146) + 0 on 88;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\not_4bit\src\not_4bit.vhd" "f93efcbbded710b8b43c42c7d47721999ea1bc3a" "20250606222705.522":
+  entity not_4bit at 1( 0) + 0 on 89;
+  architecture dataflow of not_4bit at 13( 257) + 0 on 90;
+  architecture structural of not_4bit at 18( 354) + 0 on 91;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\not_4bit\tb\not_4bit_tb_dataflow.vhd" "5c14e1111d51a48ee360de91792d63348bcea38f" "20250606222705.523":
+  entity not_4bit_tb_dataflow at 1( 0) + 0 on 92;
+  architecture behavioral of not_4bit_tb_dataflow at 8( 142) + 0 on 93;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\not_4bit\tb\not_4bit_tb_structural.vhd" "1ec8f4e21e866d80e1847fed92dba34f2d946371" "20250606222705.524":
+  entity not_4bit_tb_structural at 1( 0) + 0 on 94;
+  architecture behavioral of not_4bit_tb_structural at 8( 146) + 0 on 95;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\or_4bit\src\or_4bit.vhd" "88e17886e05ca8d0cf23ed3d46e6a53c81fdba0d" "20250606222705.526":
+  entity or_4bit at 1( 0) + 0 on 96;
+  architecture dataflow of or_4bit at 14( 304) + 0 on 97;
+  architecture structural of or_4bit at 19( 404) + 0 on 98;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\or_4bit\tb\or_4bit_tb_dataflow.vhd" "eb860da68f4b3aca80dea3308f1ef578f4795c12" "20250606222705.526":
+  entity or_4bit_tb_dataflow at 1( 0) + 0 on 99;
+  architecture behavioral of or_4bit_tb_dataflow at 8( 140) + 0 on 100;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\or_4bit\tb\or_4bit_tb_structural.vhd" "5b7aa9893d235b0343ea669ec4a9e0d3dc3e9b8e" "20250606222705.527":
+  entity or_4bit_tb_structural at 1( 0) + 0 on 101;
+  architecture behavioral of or_4bit_tb_structural at 8( 144) + 0 on 102;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\shifter_8bit\src\shifter_8bit.vhd" "208b09f2ab7b44d258dc21d1d598decfbaf141f7" "20250606222705.528":
+  entity shifter_8bit at 1( 0) + 0 on 103;
+  architecture dataflow of shifter_8bit at 17( 421) + 0 on 104;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\shifter_8bit\tb\shifter_8bit_tb_dataflow.vhd" "26f73f202d16aae91d0dd10c5db8e7220c8de6ce" "20250606222705.530":
+  entity shifter_8bit_tb_dataflow at 1( 0) + 0 on 105;
+  architecture behavioral of shifter_8bit_tb_dataflow at 10( 219) + 0 on 106;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\xor_4bit\src\xor_4bit.vhd" "9068fa6780b869fe6edb194096c10aab3f4aec54" "20250606222705.532":
+  entity xor_4bit at 1( 0) + 0 on 107;
+  architecture dataflow of xor_4bit at 14( 306) + 0 on 108;
+  architecture structural of xor_4bit at 19( 408) + 0 on 109;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\xor_4bit\tb\xor_4bit_tb_dataflow.vhd" "5ddefbd5fbd52a6127fe5d2e8a946b7fdc9aaf86" "20250606222705.533":
+  entity xor_4bit_tb_dataflow at 1( 0) + 0 on 110;
+  architecture behavioral of xor_4bit_tb_dataflow at 8( 142) + 0 on 111;
+file / "C:\Users\andre\OneDrive\projects\8_bit_cpu\building_blocks\logic\xor_4bit\tb\xor_4bit_tb_structural.vhd" "70bba00b9c8ca77a3bf437fd96ecbfd38a430b81" "20250606222705.534":
+  entity xor_4bit_tb_structural at 1( 0) + 0 on 112;
+  architecture behavioral of xor_4bit_tb_structural at 8( 146) + 0 on 113;

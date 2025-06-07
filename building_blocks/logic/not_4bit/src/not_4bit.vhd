@@ -1,5 +1,5 @@
 library ieee;
-library gate_lib;
+library building_blocks_lib;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
@@ -18,22 +18,22 @@ end architecture dataFlow;
 architecture structural of not_4bit is
 
 begin
-    bit_0: entity gate_lib.not1 
+    bit_0: entity building_blocks_lib.not1 
         port map(
             a_in  => a_in(0),
             z_out  => sum(0)
         );
-    bit_1: entity gate_lib.not1 
+    bit_1: entity building_blocks_lib.not1 
         port map(
             a_in  => a_in(1),
             z_out  => sum(1)
         );
-    bit_2: entity gate_lib.not1 
+    bit_2: entity building_blocks_lib.not1 
         port map(
             a_in  => a_in(2),
             z_out  => sum(2)
         );
-    bit_3: entity gate_lib.not1 
+    bit_3: entity building_blocks_lib.not1 
         port map(
             a_in  => a_in(3),
             z_out  => sum(3)

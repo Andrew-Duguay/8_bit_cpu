@@ -1,18 +1,18 @@
 library IEEE;
+library building_blocks_lib;
 use IEEE.STD_LOGIC_1164.all;
 use IEEE.NUMERIC_STD.all;
+use building_blocks_lib.util_pkg.all;
 
 entity shifter_8bit_tb_dataflow is
 end entity shifter_8bit_tb_dataflow;
 
 architecture behavioral of shifter_8bit_tb_dataflow is
 
-    signal a_sig  : STD_LOGIC_VECTOR(7 downto 0); 
-    signal arith_sig  : STD_LOGIC;
-    signal rot_sig  : STD_LOGIC; 
-    signal dir_sig  : STD_LOGIC;
-    signal n_bit_sig  : STD_LOGIC_VECTOR(2 downto 0); 
-    signal result_sig : STD_LOGIC_VECTOR(7 downto 0);  
+    signal a_sig  : STD_LOGIC_VECTOR(7 downto 0) := (others=> '0'); 
+    signal stat_sig  : STD_LOGIC_VECTOR(2 downto 0):= (others=> '0');  -- arith & rot & dir
+    signal n_bit_sig  : STD_LOGIC_VECTOR(2 downto 0):= (others=> '0'); 
+    signal result_sig : STD_LOGIC_VECTOR(7 downto 0):= (others=> '0');  
     constant DELTA_DELAY : time :=  10 ns;
     type test_case_array is array (natural range<>) of std_logic_vector(7 downto 0);
     constant test_cases : test_case_array := (
@@ -35,51 +35,53 @@ begin
     uut_shifter_8bit : entity work.shifter_8bit(dataFlow)
         port map (
             a_in        => a_sig,
-            arith       => arith_sig,
-            rot         => rot_sig,
-            direction   => dir_sig,  
+            arith       => stat_sig(2),
+            rot         => stat_sig(1),
+            direction   => stat_sig(0),  
             num_bits    => n_bit_sig,
             result      => result_sig
         );
 
     TB_PROCESS : process
-    variable a_str, r_str, a_exp, r_exp : string(1 to 8);
     variable a_var, r_var : std_logic_vector(7 downto 0);
     begin
         --Logical shift left
-        arith_sig <= '0';
-        rot_sig <= '0';
-        dir_sig <= '0';
-        L_S_L : for i in test_cases'range loop
-            SHIFT_AMOUNT_LOOP: for j in 0 to 7 loop
-                a_sig       <= test_cases(i);          
-                n_bit_sig   <= std_logic_vector(to_unsigned(j, 3));
-                wait for DELTA_DELAY;
+        
+        SHIFT_TYPES_LOOP: for h in 0 to 7 loop
+            stat_sig <= std_logic_vector(to_unsigned(h,3));
+            L_S_L : for i in test_cases'range loop
+                a_sig <= test_cases(i); 
                 a_var := test_cases(i);
-                r_var := (a_var sll j);
+                SHIFT_AMOUNT_LOOP: for j in 0 to 7 loop                            
+                    n_bit_sig   <= std_logic_vector(to_unsigned(j, 3));
+                    wait for DELTA_DELAY;
 
-                CONVERT_TO_STRING_FOR_DEBUG: for k in 1 to 8  loop
-                    a_str(9-k) := std_logic'image(a_sig(k-1))(2);
-                    r_str(9-k) := std_logic'image(result_sig(k-1))(2);
-                    a_exp(9-k) := std_logic'image(a_var(k-1))(2);
-                    r_exp(9-k) := std_logic'image(r_var(k-1))(2);
-                end loop; 
+                    if(h=0)     then  r_var := (a_var sll j);                                   -- arith = 0,  rot = 0,  dir = 0
+                    elsif(h=1)  then  r_var := (a_var srl j);                                   -- arith = 0,  rot = 0,  dir = 1
+                    elsif(h=2)  then  r_var := (a_var rol j);                                   -- arith = 0,  rot = 1,  dir = 0
+                    elsif(h=3)  then  r_var := (a_var ror j);                                   -- arith = 0,  rot = 1,  dir = 1
+                    elsif(h=4)  then  r_var := std_logic_vector(shift_left(signed(a_var), j));  -- arith = 1,  rot = 0,  dir = 0
+                    elsif(h=5)  then  r_var := std_logic_vector(shift_right(signed(a_var), j)); -- arith = 1,  rot = 0,  dir = 1
+                    elsif(h=6)  then  r_var := (others => 'X');                                 -- arith = 1,  rot = 1,  dir = 0
+                    elsif(h=7)  then  r_var := (others => 'X');                                 -- arith = 1,  rot = 1,  dir = 1
+                    end if;
 
-                assert (result_sig = r_var)
-                    report  LF & "     FAILURE:       di |  ar |  ro | n |    a     |    r    " & 
-                            LF & "     OUTPUT:       " &    std_logic'image(dir_sig) & " | " & 
-                                                            std_logic'image(arith_sig) & " | " & 
-                                                            std_logic'image(rot_sig) & " | " & 
-                                                            integer'image(j) & " | " & 
-                                                            a_str & " | " & 
-                                                            r_str &                                       
-                            LF & "     EXPECTED:     " &    std_logic'image(dir_sig) & " | " & 
-                                                            std_logic'image(arith_sig) & " | " & 
-                                                            std_logic'image(rot_sig) & " | " & 
-                                                            integer'image(j) & " | " & 
-                                                            a_exp & " | " & 
-                                                            r_exp 
-                    severity FAILURE;
+                    assert (result_sig = r_var)
+                        report  LF & "     FAILURE:       di |  ar |  ro | n |    a     |    r    " & 
+                                LF & "     OUTPUT:       " &    std_logic'image(stat_sig(0)) & " | " & 
+                                                                std_logic'image(stat_sig(2)) & " | " & 
+                                                                std_logic'image(stat_sig(1)) & " | " & 
+                                                                integer'image(j) & " | " & 
+                                                                to_string(a_sig)  & " | " & 
+                                                                to_string(result_sig)  &                                       
+                                LF & "     EXPECTED:     " &    std_logic'image(stat_sig(0)) & " | " & 
+                                                                std_logic'image(stat_sig(2)) & " | " & 
+                                                                std_logic'image(stat_sig(1)) & " | " & 
+                                                                integer'image(j) & " | " & 
+                                                                to_string(a_var)  & " | " & 
+                                                                to_string(r_var) 
+                        severity FAILURE;
+                end loop;
             end loop;
         end loop;
         wait;

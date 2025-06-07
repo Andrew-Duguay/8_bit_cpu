@@ -2,8 +2,7 @@
 rem Script to analyze all VHDL files and then run each testbench individually.
 
 rem --- Configuration ---
-echo [CONFIG]      Setting VHDL standard to 2008.
-set GHDL_ARGS=--std=08 -P..\..\..\gates\gate_lib
+set GHDL_ARGS=--std=08 -P..\..\..\building_blocks_lib
 
 rem A list of all your testbench entity names, separated by spaces.
 set TESTBENCHES=or_4bit_tb_dataflow or_4bit_tb_structural
@@ -28,4 +27,4 @@ echo               Running: %%T
     ghdl -r %GHDL_ARGS% %%T --fst=%%T.fst
 )
 
-echo [SUCCESS] All testbenches have been run.
+echo [SUCCESS]      All testbenches have been run.

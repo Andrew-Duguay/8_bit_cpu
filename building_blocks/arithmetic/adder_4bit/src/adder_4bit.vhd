@@ -1,4 +1,5 @@
 library ieee;
+library building_blocks_lib;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
@@ -43,19 +44,10 @@ begin
 end architecture dataFlow;
 
 architecture structural of adder_4bit is
-    component fullAdder is
-        port (
-            a_in : in std_logic;
-            b_in : in std_logic;
-            c_in: in std_logic;
-            sum: out std_logic;
-            c_out: out std_logic
-        );
-    end component fullAdder;
 
     signal c0, c1, c2 : std_logic;
 begin
-    bit_0: component fullAdder 
+    bit_0: entity building_blocks_lib.fullAdder 
         port map(
             a_in  => a_in(0),
             b_in  => b_in(0),
@@ -63,7 +55,7 @@ begin
             sum  => sum(0),
             c_out => c0
         );
-    bit_1: component fullAdder 
+    bit_1: entity building_blocks_lib.fullAdder 
         port map(
             a_in  => a_in(1),
             b_in  => b_in(1),
@@ -71,7 +63,7 @@ begin
             sum  => sum(1),
             c_out => c1
         );
-    bit_2: component fullAdder 
+    bit_2: entity building_blocks_lib.fullAdder 
         port map(
             a_in  => a_in(2),
             b_in  => b_in(2),
@@ -79,7 +71,7 @@ begin
             sum  => sum(2),
             c_out => c2
         );
-    bit_3: component fullAdder 
+    bit_3: entity building_blocks_lib.fullAdder 
         port map(
             a_in  => a_in(3),
             b_in  => b_in(3),

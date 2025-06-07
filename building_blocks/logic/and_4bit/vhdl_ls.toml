@@ -1,7 +1,0 @@
-standard = "2008"
-
-[libraries]
-defaultlib.files = [
-  'src/**/*.vhd',
-  'tb/**/*.vhd'
-]
