@@ -44,13 +44,13 @@ file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20
 file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250528183228.936":
   entity and2 at 1( 0) + 0 on 166;
   architecture rtl of and2 at 12( 195) + 0 on 167;
-file . "..\tb\xor_4bit_tb_structural.vhd" "70bba00b9c8ca77a3bf437fd96ecbfd38a430b81" "20250606195801.394":
-  entity xor_4bit_tb_structural at 1( 0) + 0 on 222;
-  architecture behavioral of xor_4bit_tb_structural at 8( 146) + 0 on 223;
-file . "..\tb\xor_4bit_tb_dataflow.vhd" "5ddefbd5fbd52a6127fe5d2e8a946b7fdc9aaf86" "20250606195801.393":
-  entity xor_4bit_tb_dataflow at 1( 0) + 0 on 220;
-  architecture behavioral of xor_4bit_tb_dataflow at 8( 142) + 0 on 221;
-file . "..\src\xor_4bit.vhd" "9068fa6780b869fe6edb194096c10aab3f4aec54" "20250606195801.392":
-  entity xor_4bit at 1( 0) + 0 on 217;
-  architecture dataflow of xor_4bit at 14( 306) + 0 on 218;
-  architecture structural of xor_4bit at 19( 408) + 0 on 219;
+file . "..\tb\xor_4bit_tb_structural.vhd" "70bba00b9c8ca77a3bf437fd96ecbfd38a430b81" "20250722172203.482":
+  entity xor_4bit_tb_structural at 1( 0) + 0 on 264;
+  architecture behavioral of xor_4bit_tb_structural at 8( 146) + 0 on 265;
+file . "..\tb\xor_4bit_tb_dataflow.vhd" "5ddefbd5fbd52a6127fe5d2e8a946b7fdc9aaf86" "20250722172203.481":
+  entity xor_4bit_tb_dataflow at 1( 0) + 0 on 262;
+  architecture behavioral of xor_4bit_tb_dataflow at 8( 142) + 0 on 263;
+file . "..\src\xor_4bit.vhd" "9068fa6780b869fe6edb194096c10aab3f4aec54" "20250722172203.480":
+  entity xor_4bit at 1( 0) + 0 on 259;
+  architecture dataflow of xor_4bit at 14( 306) + 0 on 260;
+  architecture structural of xor_4bit at 19( 408) + 0 on 261;

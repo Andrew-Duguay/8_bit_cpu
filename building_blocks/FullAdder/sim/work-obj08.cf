@@ -44,10 +44,9 @@ file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20
 file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250528183225.618":
   entity and2 at 1( 0) + 0 on 536;
   architecture rtl of and2 at 12( 195) + 0 on 537;
-file . "..\src\fullAdder.vhd" "c1d0e6f81312fd951bd069763a986936c0e61664" "20250606195757.439":
-  entity fulladder at 1( 0) + 0 on 566;
-  architecture behavioral of fulladder at 16( 311) + 0 on 567;
-  architecture structural of fulladder at 22( 488) + 0 on 568;
-file . "..\tb\fulladder_tb.vhd" "33e13e1abf77724a4058302cc17553b40e00ae52" "20250606195757.441":
-  entity fulladder_tb at 1( 0) + 0 on 569;
-  architecture behavioral of fulladder_tb at 8( 126) + 0 on 570;
+file . "..\src\fullAdder.vhd" "8fef3415a469af380478b76b6d76bd05bf95dd51" "20250722172159.316":
+  entity fulladder at 1( 0) + 0 on 575;
+  architecture behavioral of fulladder at 15( 281) + 0 on 576;
+file . "..\tb\fulladder_tb.vhd" "332f7f0f59593bc62bdd7045c1af7bc1eda92202" "20250722172159.317":
+  entity fulladder_tb at 1( 0) + 0 on 577;
+  architecture behavioral of fulladder_tb at 8( 126) + 0 on 578;

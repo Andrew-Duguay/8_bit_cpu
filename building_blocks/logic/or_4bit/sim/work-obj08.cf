@@ -44,13 +44,13 @@ file . "..\..\gates\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20
 file . "..\..\gates\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250528183228.541":
   entity and2 at 1( 0) + 0 on 240;
   architecture rtl of and2 at 12( 195) + 0 on 241;
-file . "..\tb\or_4bit_tb_structural.vhd" "5b7aa9893d235b0343ea669ec4a9e0d3dc3e9b8e" "20250606195800.765":
-  entity or_4bit_tb_structural at 1( 0) + 0 on 296;
-  architecture behavioral of or_4bit_tb_structural at 8( 144) + 0 on 297;
-file . "..\tb\or_4bit_tb_dataflow.vhd" "eb860da68f4b3aca80dea3308f1ef578f4795c12" "20250606195800.764":
-  entity or_4bit_tb_dataflow at 1( 0) + 0 on 294;
-  architecture behavioral of or_4bit_tb_dataflow at 8( 140) + 0 on 295;
-file . "..\src\or_4bit.vhd" "88e17886e05ca8d0cf23ed3d46e6a53c81fdba0d" "20250606195800.763":
-  entity or_4bit at 1( 0) + 0 on 291;
-  architecture dataflow of or_4bit at 14( 304) + 0 on 292;
-  architecture structural of or_4bit at 19( 404) + 0 on 293;
+file . "..\tb\or_4bit_tb_structural.vhd" "5b7aa9893d235b0343ea669ec4a9e0d3dc3e9b8e" "20250722172202.554":
+  entity or_4bit_tb_structural at 1( 0) + 0 on 338;
+  architecture behavioral of or_4bit_tb_structural at 8( 144) + 0 on 339;
+file . "..\tb\or_4bit_tb_dataflow.vhd" "eb860da68f4b3aca80dea3308f1ef578f4795c12" "20250722172202.553":
+  entity or_4bit_tb_dataflow at 1( 0) + 0 on 336;
+  architecture behavioral of or_4bit_tb_dataflow at 8( 140) + 0 on 337;
+file . "..\src\or_4bit.vhd" "88e17886e05ca8d0cf23ed3d46e6a53c81fdba0d" "20250722172202.552":
+  entity or_4bit at 1( 0) + 0 on 333;
+  architecture dataflow of or_4bit at 14( 304) + 0 on 334;
+  architecture structural of or_4bit at 19( 404) + 0 on 335;

@@ -1,13 +1,13 @@
 v 4
-file . "..\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250606195757.674":
-  entity and2 at 1( 0) + 0 on 551;
-  architecture rtl of and2 at 12( 195) + 0 on 552;
-file . "..\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250606195757.675":
-  entity and3 at 1( 0) + 0 on 553;
-  architecture rtl of and3 at 13( 226) + 0 on 554;
-file . "..\src\buffer1.vhd" "1ed264870df4d829f1a1280ab52c22b276fea098" "20250606195757.675":
-  entity buffer1 at 1( 0) + 0 on 555;
-  architecture rtl of buffer1 at 11( 170) + 0 on 556;
+file . "..\src\and2.vhd" "b34baf6d78a59daaca8c84d2853dedab73773e31" "20250722172159.481":
+  entity and2 at 1( 0) + 0 on 887;
+  architecture rtl of and2 at 12( 195) + 0 on 888;
+file . "..\src\and3.vhd" "2374a999c43201a09589c253d67b88f4c6a75c15" "20250722172159.482":
+  entity and3 at 1( 0) + 0 on 889;
+  architecture rtl of and3 at 13( 226) + 0 on 890;
+file . "..\src\buffer1.vhd" "1ed264870df4d829f1a1280ab52c22b276fea098" "20250722172159.482":
+  entity buffer1 at 1( 0) + 0 on 891;
+  architecture rtl of buffer1 at 11( 170) + 0 on 892;
 file . "..\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250528185246.057":
   entity mux2 at 1( 0) + 0 on 153;
   architecture rtl of mux2 at 14( 240) + 0 on 154;
@@ -17,48 +17,48 @@ file . "..\src\mux4.vhd" "f4bdd59a11dc7a1925187bb78d40343281d637d1" "20250528185
 file . "..\src\mux8.vhd" "6997673c19f25340ce492ef3fba25241aac8f01a" "20250528185246.059":
   entity mux8 at 1( 0) + 0 on 157;
   architecture rtl of mux8 at 20( 427) + 0 on 158;
-file . "..\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250606195757.676":
-  entity nand2 at 1( 0) + 0 on 557;
-  architecture rtl of nand2 at 12( 197) + 0 on 558;
-file . "..\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250606195757.676":
-  entity nand3 at 1( 0) + 0 on 559;
-  architecture rtl of nand3 at 13( 228) + 0 on 560;
-file . "..\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250606195757.677":
-  entity nor2 at 1( 0) + 0 on 561;
-  architecture rtl of nor2 at 12( 195) + 0 on 562;
-file . "..\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250606195757.677":
-  entity nor3 at 1( 0) + 0 on 563;
-  architecture rtl of nor3 at 13( 226) + 0 on 564;
-file . "..\src\not1.vhd" "b383d706d4fc6f3129341c18c721ee6ca1de72c6" "20250606195757.677":
-  entity not1 at 1( 0) + 0 on 565;
-  architecture rtl of not1 at 11( 164) + 0 on 566;
-file . "..\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250606195757.678":
-  entity or2 at 1( 0) + 0 on 567;
-  architecture rtl of or2 at 12( 193) + 0 on 568;
-file . "..\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250606195757.678":
-  entity or3 at 1( 0) + 0 on 569;
-  architecture rtl of or3 at 13( 224) + 0 on 570;
-file . "..\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250606195757.681":
-  entity xnor2 at 1( 0) + 0 on 571;
-  architecture rtl of xnor2 at 13( 217) + 0 on 572;
-file . "..\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250606195757.682":
-  entity xnor3 at 1( 0) + 0 on 573;
-  architecture rtl of xnor3 at 14( 248) + 0 on 574;
-file . "..\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250606195757.682":
-  entity xor2 at 1( 0) + 0 on 575;
-  architecture rtl of xor2 at 13( 215) + 0 on 576;
-file . "..\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250606195757.683":
-  entity xor3 at 1( 0) + 0 on 577;
-  architecture rtl of xor3 at 14( 246) + 0 on 578;
-file . "..\tb\and2_tb.vhd" "5cfb89432961d2258df9c229214e7ef05204ff27" "20250606195757.684":
-  entity and2_tb at 1( 0) + 0 on 579;
-  architecture behavioral of and2_tb at 8( 116) + 0 on 580;
-file . "..\tb\and3_tb.vhd" "387b11838fec6e94d5afc84089098f6f998fdf1c" "20250606195757.685":
-  entity and3_tb at 1( 0) + 0 on 581;
-  architecture behavioral of and3_tb at 8( 116) + 0 on 582;
-file . "..\tb\buffer1_tb.vhd" "80edc45acfae33a30903cd536d84630fcfd68f7d" "20250606195757.686":
-  entity buffer1_tb at 1( 0) + 0 on 583;
-  architecture behavioral of buffer1_tb at 8( 122) + 0 on 584;
+file . "..\src\nand2.vhd" "7abc12ed923e3d01d06ef962e8472e501161cbf8" "20250722172159.483":
+  entity nand2 at 1( 0) + 0 on 893;
+  architecture rtl of nand2 at 12( 197) + 0 on 894;
+file . "..\src\nand3.vhd" "2f1560cf2c533089663f93f3879bb7ebab818be7" "20250722172159.483":
+  entity nand3 at 1( 0) + 0 on 895;
+  architecture rtl of nand3 at 13( 228) + 0 on 896;
+file . "..\src\nor2.vhd" "86b8c56515cae69497a15bdf0ca9f34df7395d5b" "20250722172159.484":
+  entity nor2 at 1( 0) + 0 on 897;
+  architecture rtl of nor2 at 12( 195) + 0 on 898;
+file . "..\src\nor3.vhd" "6b20662bbccbf9bb18b0254c3c73969a3d7d6938" "20250722172159.484":
+  entity nor3 at 1( 0) + 0 on 899;
+  architecture rtl of nor3 at 13( 226) + 0 on 900;
+file . "..\src\not1.vhd" "b383d706d4fc6f3129341c18c721ee6ca1de72c6" "20250722172159.485":
+  entity not1 at 1( 0) + 0 on 901;
+  architecture rtl of not1 at 11( 164) + 0 on 902;
+file . "..\src\or2.vhd" "64f407d5bccbd8ff87810484c4a2142e1cdcff6b" "20250722172159.485":
+  entity or2 at 1( 0) + 0 on 903;
+  architecture rtl of or2 at 12( 193) + 0 on 904;
+file . "..\src\or3.vhd" "682444c8797af37c446fd7d22f1d0e96c6342281" "20250722172159.486":
+  entity or3 at 1( 0) + 0 on 905;
+  architecture rtl of or3 at 13( 224) + 0 on 906;
+file . "..\src\xnor2.vhd" "95539c401d8efe64933f3fb1438696109ecd27f5" "20250722172159.488":
+  entity xnor2 at 1( 0) + 0 on 907;
+  architecture rtl of xnor2 at 13( 217) + 0 on 908;
+file . "..\src\xnor3.vhd" "7bfa299ccba3fb78d0ff4a20861e4b2f69ca364e" "20250722172159.489":
+  entity xnor3 at 1( 0) + 0 on 909;
+  architecture rtl of xnor3 at 14( 248) + 0 on 910;
+file . "..\src\xor2.vhd" "c63debb46ad75f01726178e77698bfa2a486ba14" "20250722172159.490":
+  entity xor2 at 1( 0) + 0 on 911;
+  architecture rtl of xor2 at 13( 215) + 0 on 912;
+file . "..\src\xor3.vhd" "235d6fac8c1632fa65ce4e1a88fb8b41e19ec37f" "20250722172159.491":
+  entity xor3 at 1( 0) + 0 on 913;
+  architecture rtl of xor3 at 14( 246) + 0 on 914;
+file . "..\tb\and2_tb.vhd" "5cfb89432961d2258df9c229214e7ef05204ff27" "20250722172159.492":
+  entity and2_tb at 1( 0) + 0 on 915;
+  architecture behavioral of and2_tb at 8( 116) + 0 on 916;
+file . "..\tb\and3_tb.vhd" "387b11838fec6e94d5afc84089098f6f998fdf1c" "20250722172159.493":
+  entity and3_tb at 1( 0) + 0 on 917;
+  architecture behavioral of and3_tb at 8( 116) + 0 on 918;
+file . "..\tb\buffer1_tb.vhd" "80edc45acfae33a30903cd536d84630fcfd68f7d" "20250722172159.493":
+  entity buffer1_tb at 1( 0) + 0 on 919;
+  architecture behavioral of buffer1_tb at 8( 122) + 0 on 920;
 file . "..\tb\mux2_tb.vhd" "375c8aa42c253bae3154453fce5ad26c517f5d3e" "20250528185246.086":
   entity mux2_tb at 1( 0) + 0 on 187;
   architecture behavioral of mux2_tb at 8( 116) + 0 on 188;
@@ -68,36 +68,36 @@ file . "..\tb\mux4_tb.vhd" "31ef4c8ff983fff5bd940ad1edd2ad1bf16194d3" "202505281
 file . "..\tb\mux8_tb.vhd" "e469a80052c4c027740a052bc1a5f0273c0862a4" "20250528185246.089":
   entity mux8_tb at 1( 0) + 0 on 191;
   architecture behavioral of mux8_tb at 8( 116) + 0 on 192;
-file . "..\tb\nand2_tb.vhd" "a53ad3d87fb8e32fb5f4a03fb4b4b3bc806a1662" "20250606195757.687":
-  entity nand2_tb at 1( 0) + 0 on 585;
-  architecture behavioral of nand2_tb at 8( 118) + 0 on 586;
-file . "..\tb\nand3_tb.vhd" "fcbc4bface194854152b27a43b074a1360b30e83" "20250606195757.688":
-  entity nand3_tb at 1( 0) + 0 on 587;
-  architecture behavioral of nand3_tb at 8( 118) + 0 on 588;
-file . "..\tb\nor2_tb.vhd" "6460fba39b33d3dea78f96edef30b0c8493c43de" "20250606195757.689":
-  entity nor2_tb at 1( 0) + 0 on 589;
-  architecture behavioral of nor2_tb at 8( 116) + 0 on 590;
-file . "..\tb\nor3_tb.vhd" "d25d4ffa48959049e17405e2319b7b6e2e9cb2d3" "20250606195757.690":
-  entity nor3_tb at 1( 0) + 0 on 591;
-  architecture behavioral of nor3_tb at 8( 116) + 0 on 592;
-file . "..\tb\not1_tb.vhd" "bc801bca6e5d6fd797286ff36441e41626487990" "20250606195757.690":
-  entity not1_tb at 1( 0) + 0 on 593;
-  architecture behavioral of not1_tb at 8( 116) + 0 on 594;
-file . "..\tb\or2_tb.vhd" "992f1615697fe8cef75293b22462ed37ecffadad" "20250606195757.691":
-  entity or2_tb at 1( 0) + 0 on 595;
-  architecture behavioral of or2_tb at 8( 114) + 0 on 596;
-file . "..\tb\or3_tb.vhd" "82a54929d4001b1160f10a48f1866dd45dd952c7" "20250606195757.692":
-  entity or3_tb at 1( 0) + 0 on 597;
-  architecture behavioral of or3_tb at 8( 114) + 0 on 598;
-file . "..\tb\xnor2_tb.vhd" "322a59365de5d023671095142eaad9d65eb18d14" "20250606195757.693":
-  entity xnor2_tb at 1( 0) + 0 on 599;
-  architecture behavioral of xnor2_tb at 8( 118) + 0 on 600;
-file . "..\tb\xnor3_tb.vhd" "bcaceb241956e03bbedbbd399305dc917cef1158" "20250606195757.694":
-  entity xnor3_tb at 1( 0) + 0 on 601;
-  architecture behavioral of xnor3_tb at 8( 118) + 0 on 602;
-file . "..\tb\xor2_tb.vhd" "7a41cf62a713c0bd92ae66d57de9cdca9ebd6d5a" "20250606195757.695":
-  entity xor2_tb at 1( 0) + 0 on 603;
-  architecture behavioral of xor2_tb at 8( 116) + 0 on 604;
-file . "..\tb\xor3_tb.vhd" "2f15efebc46118e898eadc8871b3359cf88a0aab" "20250606195757.695":
-  entity xor3_tb at 1( 0) + 0 on 605;
-  architecture behavioral of xor3_tb at 8( 116) + 0 on 606;
+file . "..\tb\nand2_tb.vhd" "a53ad3d87fb8e32fb5f4a03fb4b4b3bc806a1662" "20250722172159.494":
+  entity nand2_tb at 1( 0) + 0 on 921;
+  architecture behavioral of nand2_tb at 8( 118) + 0 on 922;
+file . "..\tb\nand3_tb.vhd" "fcbc4bface194854152b27a43b074a1360b30e83" "20250722172159.495":
+  entity nand3_tb at 1( 0) + 0 on 923;
+  architecture behavioral of nand3_tb at 8( 118) + 0 on 924;
+file . "..\tb\nor2_tb.vhd" "6460fba39b33d3dea78f96edef30b0c8493c43de" "20250722172159.496":
+  entity nor2_tb at 1( 0) + 0 on 925;
+  architecture behavioral of nor2_tb at 8( 116) + 0 on 926;
+file . "..\tb\nor3_tb.vhd" "d25d4ffa48959049e17405e2319b7b6e2e9cb2d3" "20250722172159.497":
+  entity nor3_tb at 1( 0) + 0 on 927;
+  architecture behavioral of nor3_tb at 8( 116) + 0 on 928;
+file . "..\tb\not1_tb.vhd" "bc801bca6e5d6fd797286ff36441e41626487990" "20250722172159.498":
+  entity not1_tb at 1( 0) + 0 on 929;
+  architecture behavioral of not1_tb at 8( 116) + 0 on 930;
+file . "..\tb\or2_tb.vhd" "992f1615697fe8cef75293b22462ed37ecffadad" "20250722172159.499":
+  entity or2_tb at 1( 0) + 0 on 931;
+  architecture behavioral of or2_tb at 8( 114) + 0 on 932;
+file . "..\tb\or3_tb.vhd" "82a54929d4001b1160f10a48f1866dd45dd952c7" "20250722172159.500":
+  entity or3_tb at 1( 0) + 0 on 933;
+  architecture behavioral of or3_tb at 8( 114) + 0 on 934;
+file . "..\tb\xnor2_tb.vhd" "322a59365de5d023671095142eaad9d65eb18d14" "20250722172159.501":
+  entity xnor2_tb at 1( 0) + 0 on 935;
+  architecture behavioral of xnor2_tb at 8( 118) + 0 on 936;
+file . "..\tb\xnor3_tb.vhd" "bcaceb241956e03bbedbbd399305dc917cef1158" "20250722172159.501":
+  entity xnor3_tb at 1( 0) + 0 on 937;
+  architecture behavioral of xnor3_tb at 8( 118) + 0 on 938;
+file . "..\tb\xor2_tb.vhd" "7a41cf62a713c0bd92ae66d57de9cdca9ebd6d5a" "20250722172159.502":
+  entity xor2_tb at 1( 0) + 0 on 939;
+  architecture behavioral of xor2_tb at 8( 116) + 0 on 940;
+file . "..\tb\xor3_tb.vhd" "2f15efebc46118e898eadc8871b3359cf88a0aab" "20250722172159.503":
+  entity xor3_tb at 1( 0) + 0 on 941;
+  architecture behavioral of xor3_tb at 8( 116) + 0 on 942;

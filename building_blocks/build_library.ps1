@@ -5,12 +5,21 @@ $SOURCE_DIR = "."
 $OUTPUT_DIR = ".\building_blocks_lib"
 
 # --- Setup ---
-Write-Host "[INFO] Creating VHDL library: $LIBRARY_NAME"
-# Create the output directory if it doesn't exist
-if (-not (Test-Path -Path $OUTPUT_DIR)) {
-    New-Item -ItemType Directory -Path $OUTPUT_DIR
-    Write-Host "[SETUP] Created output directory: $OUTPUT_DIR"
+Write-Host "[INFO] Cleaning and creating VHDL library: $LIBRARY_NAME"
+# Remove existing output directory to ensure a clean slate
+if (Test-Path -Path $OUTPUT_DIR) {
+    Remove-Item -Path $OUTPUT_DIR -Recurse -Force
+    Write-Host "[SETUP] Removed existing output directory: $OUTPUT_DIR"
 }
+# Create the output directory
+New-Item -ItemType Directory -Path $OUTPUT_DIR | Out-Null # Use Out-Null to suppress default output
+Write-Host "[SETUP] Created output directory: $OUTPUT_DIR"
+Write-Host "-----------------------------------------------------"
+
+# Now, ghdl --remove-lib might be redundant if the directory is gone,
+# but it doesn't hurt as ghdl needs to initialize the library inside it.
+# Keep it for GHDL's internal library state consistency.
+ghdl --remove-lib=$LIBRARY_NAME
 Write-Host "-----------------------------------------------------"
 
 # --- Find All Source Files ---
