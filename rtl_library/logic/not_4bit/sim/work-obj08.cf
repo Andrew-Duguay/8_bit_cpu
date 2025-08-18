@@ -1,0 +1,11 @@
+v 4
+file . "..\tb\not_4bit_tb_structural.vhd" "1ec8f4e21e866d80e1847fed92dba34f2d946371" "20250818185653.291":
+  entity not_4bit_tb_structural at 1( 0) + 0 on 100;
+  architecture behavioral of not_4bit_tb_structural at 8( 146) + 0 on 101;
+file . "..\tb\not_4bit_tb_dataflow.vhd" "5c14e1111d51a48ee360de91792d63348bcea38f" "20250818185653.290":
+  entity not_4bit_tb_dataflow at 1( 0) + 0 on 98;
+  architecture behavioral of not_4bit_tb_dataflow at 8( 142) + 0 on 99;
+file . "..\src\not_4bit.vhd" "9dcebb9ab1a90f4dcb0507c8421a3950ce3ee1b8" "20250818185653.289":
+  entity not_4bit at 1( 0) + 0 on 95;
+  architecture dataflow of not_4bit at 13( 245) + 0 on 96;
+  architecture structural of not_4bit at 18( 342) + 0 on 97;

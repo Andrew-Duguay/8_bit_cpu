@@ -1,0 +1,11 @@
+v 4
+file . "..\tb\xor_4bit_tb_structural.vhd" "70bba00b9c8ca77a3bf437fd96ecbfd38a430b81" "20250818185654.776":
+  entity xor_4bit_tb_structural at 1( 0) + 0 on 100;
+  architecture behavioral of xor_4bit_tb_structural at 8( 146) + 0 on 101;
+file . "..\tb\xor_4bit_tb_dataflow.vhd" "5ddefbd5fbd52a6127fe5d2e8a946b7fdc9aaf86" "20250818185654.775":
+  entity xor_4bit_tb_dataflow at 1( 0) + 0 on 98;
+  architecture behavioral of xor_4bit_tb_dataflow at 8( 142) + 0 on 99;
+file . "..\src\xor_4bit.vhd" "8b72be1286ada734bbca2fd2f15753d49c7a4bf8" "20250818185654.774":
+  entity xor_4bit at 1( 0) + 0 on 95;
+  architecture dataflow of xor_4bit at 14( 294) + 0 on 96;
+  architecture structural of xor_4bit at 19( 396) + 0 on 97;
