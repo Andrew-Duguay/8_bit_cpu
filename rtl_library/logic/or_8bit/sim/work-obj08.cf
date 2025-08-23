@@ -1,11 +1,11 @@
 v 4
-file . "..\tb\or_8bit_tb_structural.vhd" "6d22a0eed7e67578e3d9001ce5a702e0df3cc7b4" "20250818185654.162":
-  entity or_8bit_tb_structural at 1( 0) + 0 on 100;
-  architecture behavioral of or_8bit_tb_structural at 10( 189) + 0 on 101;
-file . "..\tb\or_8bit_tb_dataflow.vhd" "2e6a401bc442271da795ac209807f73856ebbaab" "20250818185654.161":
-  entity or_8bit_tb_dataflow at 1( 0) + 0 on 98;
-  architecture behavioral of or_8bit_tb_dataflow at 10( 185) + 0 on 99;
-file . "..\src\or_8bit.vhd" "1d592e465b04d22923644915de3f790e7b81db04" "20250818185654.159":
-  entity or_8bit at 1( 0) + 0 on 95;
-  architecture dataflow of or_8bit at 14( 292) + 0 on 96;
-  architecture structural of or_8bit at 19( 392) + 0 on 97;
+file . "..\src\or_8bit.vhd" "1d592e465b04d22923644915de3f790e7b81db04" "20250818190408.679":
+  entity or_8bit at 1( 0) + 0 on 102;
+  architecture dataflow of or_8bit at 14( 292) + 0 on 103;
+  architecture structural of or_8bit at 19( 392) + 0 on 104;
+file . "..\tb\or_8bit_tb_dataflow.vhd" "2e6a401bc442271da795ac209807f73856ebbaab" "20250818190408.681":
+  entity or_8bit_tb_dataflow at 1( 0) + 0 on 105;
+  architecture behavioral of or_8bit_tb_dataflow at 10( 185) + 0 on 106;
+file . "..\tb\or_8bit_tb_structural.vhd" "6d22a0eed7e67578e3d9001ce5a702e0df3cc7b4" "20250818190408.682":
+  entity or_8bit_tb_structural at 1( 0) + 0 on 107;
+  architecture behavioral of or_8bit_tb_structural at 10( 189) + 0 on 108;

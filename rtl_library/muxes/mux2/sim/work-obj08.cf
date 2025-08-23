@@ -1,7 +1,7 @@
 v 4
-file . "..\tb\mux2_tb.vhd" "375c8aa42c253bae3154453fce5ad26c517f5d3e" "20250818185655.568":
-  entity mux2_tb at 1( 0) + 0 on 61;
-  architecture behavioral of mux2_tb at 8( 116) + 0 on 62;
-file . "..\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250818185655.567":
-  entity mux2 at 1( 0) + 0 on 59;
-  architecture rtl of mux2 at 14( 240) + 0 on 60;
+file . "..\src\mux2.vhd" "c52463e80d78ddbba5e95fde241e0dacbb9796ac" "20250818190410.117":
+  entity mux2 at 1( 0) + 0 on 63;
+  architecture rtl of mux2 at 14( 240) + 0 on 64;
+file . "..\tb\mux2_tb.vhd" "375c8aa42c253bae3154453fce5ad26c517f5d3e" "20250818190410.118":
+  entity mux2_tb at 1( 0) + 0 on 65;
+  architecture behavioral of mux2_tb at 8( 116) + 0 on 66;

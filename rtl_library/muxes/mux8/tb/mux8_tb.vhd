@@ -10,7 +10,14 @@ architecture behavioral of mux8_tb is
     component mux8 is
         port (
             sel : in  std_logic_vector(2 downto 0);
-            a  : in  std_logic_vector(7 downto 0);
+            a0 : in std_logic;
+            a1 : in std_logic;
+            a2 : in std_logic;
+            a3 : in std_logic;
+            a4 : in std_logic;
+            a5 : in std_logic;
+            a6 : in std_logic;
+            a7 : in std_logic;
             z_out : out std_logic
         );
     end component mux8;
@@ -24,7 +31,14 @@ begin
     uut_mux8 : component mux8
         port map (
             sel  => sel_sig,
-            a  => a_sig,
+            a0    => a_sig(0),
+            a1    => a_sig(1),
+            a2    => a_sig(2),
+            a3    => a_sig(3),
+            a4    => a_sig(4),
+            a5    => a_sig(5),
+            a6    => a_sig(6), -- Assuming a6 and a7 are unused for now
+            a7    => a_sig(7),
             z_out => z_sig
         );
 

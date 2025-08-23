@@ -2,7 +2,7 @@
 rem Script to analyze all VHDL files and then run each testbench individually.
 
 rem --- Configuration ---
-set GHDL_ARGS=--std=08 -P..\..\..\building_blocks_lib
+set GHDL_ARGS=--std=08 -P..\..\rtl_library\rtl_lib
 
 rem A list of all your testbench entity names, separated by spaces.
 set TESTBENCHES= ***TODO***
