@@ -1,11 +1,11 @@
 v 4
-file . "..\src\not_8bit.vhd" "aca5e2b3b2610d7353e32ee5414b0496a58d3f9c" "20250818190408.087":
-  entity not_8bit at 1( 0) + 0 on 102;
-  architecture dataflow of not_8bit at 13( 245) + 0 on 103;
-  architecture structural of not_8bit at 18( 342) + 0 on 104;
-file . "..\tb\and_8bit_tb_dataflow.vhd" "53e16d2fec936b001cb7679e180cd549beb8bc19" "20250818190408.088":
-  entity not_8bit_tb_dataflow at 1( 0) + 0 on 105;
-  architecture behavioral of not_8bit_tb_dataflow at 10( 187) + 0 on 106;
-file . "..\tb\and_8bit_tb_structural.vhd" "d82bfae5ccb2c54f6f07ed93f6a0d569fb74f8af" "20250818190408.089":
-  entity not_8bit_tb_structural at 1( 0) + 0 on 107;
-  architecture behavioral of not_8bit_tb_structural at 10( 191) + 0 on 108;
+file . "..\src\not_8bit.vhd" "aca5e2b3b2610d7353e32ee5414b0496a58d3f9c" "20250827212551.497":
+  entity not_8bit at 1( 0) + 0 on 116;
+  architecture dataflow of not_8bit at 13( 245) + 0 on 117;
+  architecture structural of not_8bit at 18( 342) + 0 on 118;
+file . "..\tb\and_8bit_tb_dataflow.vhd" "53e16d2fec936b001cb7679e180cd549beb8bc19" "20250827212551.498":
+  entity not_8bit_tb_dataflow at 1( 0) + 0 on 119;
+  architecture behavioral of not_8bit_tb_dataflow at 10( 187) + 0 on 120;
+file . "..\tb\and_8bit_tb_structural.vhd" "d82bfae5ccb2c54f6f07ed93f6a0d569fb74f8af" "20250827212551.499":
+  entity not_8bit_tb_structural at 1( 0) + 0 on 121;
+  architecture behavioral of not_8bit_tb_structural at 10( 191) + 0 on 122;

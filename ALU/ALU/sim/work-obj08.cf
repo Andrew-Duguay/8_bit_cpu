@@ -1,0 +1,3 @@
+v 4
+file . "../config\ALU_config.vhd" "4fb71004775ddb49f2e2fd0d9a01ad2762c5dc40" "20250827190501.842":
+  package alu_config_pkg at 1( 0) + 0 on 15;

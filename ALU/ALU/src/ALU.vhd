@@ -41,8 +41,8 @@ architecture rtl of ALU is
     signal z_ALU    : STD_LOGIC_VECTOR(7 downto 0);
 
     begin
-        output_mux_sel       <= output_mux_sel_LUT(TO_INTEGER(UNSIGNED(op_code)));
-        shifter_status_bits  <= shifter_ctrl_LUT(TO_INTEGER(UNSIGNED(op_code)));
+        output_mux_sel       <= ALU_config_pkg.output_mux_sel_LUT(TO_INTEGER(UNSIGNED(op_code)));
+        shifter_status_bits  <= ALU_config_pkg.shifter_ctrl_LUT(TO_INTEGER(UNSIGNED(op_code)));
        
         adder_unit : entity rtl_lib.adder_8bit(rtl)
             port map (

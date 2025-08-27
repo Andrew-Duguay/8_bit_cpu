@@ -1,11 +1,11 @@
 v 4
-file . "..\src\xor_8bit.vhd" "eefd63868a5eb3cbb6baca939687999882b9a14a" "20250818190409.604":
-  entity xor_8bit at 1( 0) + 0 on 102;
-  architecture dataflow of xor_8bit at 14( 294) + 0 on 103;
-  architecture structural of xor_8bit at 19( 396) + 0 on 104;
-file . "..\tb\xor_8bit_tb_dataflow.vhd" "8edaa02fa4be135812aaa4c4d19b956944665dd9" "20250818190409.606":
-  entity xor_8bit_tb_dataflow at 1( 0) + 0 on 105;
-  architecture behavioral of xor_8bit_tb_dataflow at 10( 187) + 0 on 106;
-file . "..\tb\xor_8bit_tb_structural.vhd" "df96daad429a156a810586f9ea6f9a77ae4142f3" "20250818190409.607":
-  entity xor_8bit_tb_structural at 1( 0) + 0 on 107;
-  architecture behavioral of xor_8bit_tb_structural at 10( 191) + 0 on 108;
+file . "..\src\xor_8bit.vhd" "eefd63868a5eb3cbb6baca939687999882b9a14a" "20250827212552.888":
+  entity xor_8bit at 1( 0) + 0 on 116;
+  architecture dataflow of xor_8bit at 14( 294) + 0 on 117;
+  architecture structural of xor_8bit at 19( 396) + 0 on 118;
+file . "..\tb\xor_8bit_tb_dataflow.vhd" "8edaa02fa4be135812aaa4c4d19b956944665dd9" "20250827212552.889":
+  entity xor_8bit_tb_dataflow at 1( 0) + 0 on 119;
+  architecture behavioral of xor_8bit_tb_dataflow at 10( 187) + 0 on 120;
+file . "..\tb\xor_8bit_tb_structural.vhd" "df96daad429a156a810586f9ea6f9a77ae4142f3" "20250827212552.890":
+  entity xor_8bit_tb_structural at 1( 0) + 0 on 121;
+  architecture behavioral of xor_8bit_tb_structural at 10( 191) + 0 on 122;
